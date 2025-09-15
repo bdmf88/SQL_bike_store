@@ -171,8 +171,7 @@ SELECT COUNT(*) FROM orders;
 
 Este dicionário descreve a estrutura e o conteúdo de cada tabela no banco de dados `bike_store`.
 
-![inbox_4146319_c5838eb006bab3938ad94de02f58c6c1_SQL-Server-Sample-Database.png](inbox_4146319_c5838eb006bab3938ad94de02f58c6c1_SQL-Server-Sample-Database.png)
-
+<img src="/images/tabelas.png" alt="Mapa de relacionamento de tabelas" width="750">
 ---
 
 ### 4.1. Tabela `brands`
