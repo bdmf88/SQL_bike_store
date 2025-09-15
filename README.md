@@ -4,6 +4,7 @@
 
 - **Autor:** Arthur R Neri
 - **Data de Criação:** 09 de setembro de 2025
+- **Dashboard:** https://lookerstudio.google.com/reporting/a98da5a8-e0b3-45cb-88c3-ccf14a495793
 
 ## **1. Visão Geral**
 
