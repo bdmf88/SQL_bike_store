@@ -1,15 +1,15 @@
-# **Documentação do Dashboard: Arquitetura BigQuery & Looker Studio**
+**Documentação do Dashboard: Arquitetura BigQuery & Looker Studio**
 
 - **Autor:** Arthur R. Neri
 - **Data de Criação:** 11 de setembro de 2025
 - **Versão:** 2.0 (Arquitetura em Nuvem)
 - Link para Dashboard: https://lookerstudio.google.com/reporting/a98da5a8-e0b3-45cb-88c3-ccf14a495793
 
-### **1. Visão Geral da Arquitetura**
+**1. Visão Geral da Arquitetura**
 
 Para superar os desafios de conexão de um banco de dados local com uma ferramenta de BI na nuvem, o projeto foi migrado para uma arquitetura 100% Google Cloud. Os dados brutos (CSVs) foram carregados no Google BigQuery, que serve como o Data Warehouse central. O Looker Studio se conecta diretamente ao BigQuery para consumir os dados e gerar as visualizações.
 
-### **2. Configuração do Ambiente Google Cloud / BigQuery**
+**2. Configuração do Ambiente Google Cloud / BigQuery**
 
 As seguintes etapas foram necessárias para preparar o ambiente:
 
@@ -24,7 +24,7 @@ As seguintes etapas foram necessárias para preparar o ambiente:
     - `Cloud Resource Manager API`
 4. **Vinculação da Conta de Faturamento:** O projeto foi vinculado a uma conta de faturamento ativa para permitir a execução de queries no BigQuery. O uso para este projeto se enquadra no nível gratuito do serviço.
 
-### **3. Processo de Carga de Dados (Importação para o BigQuery)**
+**3. Processo de Carga de Dados (Importação para o BigQuery)**
 
 Os 9 datasets originais em formato CSV foram carregados diretamente na interface do BigQuery.
 
